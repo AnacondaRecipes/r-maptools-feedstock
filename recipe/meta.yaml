@@ -34,6 +34,8 @@ requirements:
     - r-base
     - {{ compiler('c') }}        # [not win]
     - {{native}}toolchain        # [win]
+    - {{posix}}filesystem        # [win]
+    - {{posix}}make
     - r-foreign >=0.8
     - r-lattice
     - r-sp >=1.0_11
