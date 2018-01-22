@@ -10,8 +10,8 @@ package:
 source:
   fn: maptools_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/maptools_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/maptools/maptools_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/maptools_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/maptools/maptools_{{ version }}.tar.gz
   sha256: 3bf88cd06f69168d169727ca90d378dfedca77d80ebd26380b2708b3c6aab41c
 
 
